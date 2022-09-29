@@ -1,0 +1,66 @@
+.someClass {
+
+}
+
+.container {
+    margin-left: 30px;
+}
+
+.filterButton {
+    width: 60px;
+    margin-right: 30px;
+    background-color: green;
+    color: greenyellow;
+    border: 1px solid black;
+    box-shadow: -3px 1px 1px black;
+}
+
+.filterButton:active {
+    position: relative;
+    left: -3px;
+    top: 1px;
+    box-shadow: 0 0 1px black;
+}
+
+.deleteButton {
+    background-color: green;
+    color: greenyellow;
+    width: 80px;
+    margin-left: 60px;
+    border: 1px solid black;
+    box-shadow: -3px 1px 1px black;
+}
+.deleteButton:active {
+    position: relative;
+    left: -3px;
+    top: 1px;
+    box-shadow: 0 0 1px black;
+}
+
+.itemWrapper {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 5px 0;
+}
+
+.high {
+    color: red;
+}
+.middle {
+   color: orange;
+}
+.low {
+    color: green;
+
+}
+.name {
+    color: darkgreen;
+    width: 100px;
+}
+
+.textWrapper {
+    display: flex;
+}
+
+

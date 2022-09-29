@@ -1,0 +1,63 @@
+.container {
+    margin-left: 30px;
+}
+
+.input {
+    background-color: green;
+    color: yellowgreen;
+}
+
+.input:focus {
+    outline: none;
+    border: 2px solid greenyellow;
+    box-sizing: border-box;
+}
+
+
+.error {
+    border: 2px solid red;
+    outline: none;
+    box-sizing: border-box;
+    background-color: green;
+    color: yellowgreen;
+}
+
+
+.addButton {
+    width: 60px;
+    margin: 0 20px;
+    background-color: green;
+    color: greenyellow;
+    border: 1px solid black;
+    box-shadow: -3px 1px 1px black;
+}
+
+.addButton:active {
+    position: relative;
+    left: -3px;
+    top: 1px;
+    box-shadow: 0 0 1px black;
+}
+
+.addButton:disabled {
+    width: 60px;
+    margin: 0 20px;
+    background-color: green;
+    color: gray;
+    border: 1px solid black;
+    box-shadow: 0 0 0 black;
+}
+
+.addButton:disabled:active {
+    position: relative;
+    left: 0;
+    top: 0;
+    box-shadow: 0 0 0 black;
+}
+
+
+.errorText {
+    margin: 0 10px 0 10px;
+    color: red;
+    font-weight: 700;
+}
